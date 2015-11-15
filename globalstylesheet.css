@@ -1,0 +1,125 @@
+@font-face
+{
+font-family: Trajan Pro;
+src: url(images/TrajanPro-Regular.ttf);
+}
+
+ * {
+ 	font-family: Helvetica, Calibri, Arial, sans-serif;
+ 	font-weight: lighter;
+ 	font-size: 0.8pc;
+ 	
+  }
+a {
+	text-decoration: none;
+	color: inherit;
+	font-family: inherit;
+	font-weight: inherit;
+	font-size: inherit;
+}
+body {
+	background-color: #e3e3e3;
+	background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.2) 25%, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0));
+  	background-size: 50px 50px;
+	
+	/*opacity:0.4;
+	filter:alpha(opacity=40); /* For IE8 and earlier */
+}
+
+
+.CenterColumn {
+	width: 80%;
+	margin: auto;
+	background-color: #ffffff;
+	box-shadow: 10px 10px 20px #bbbbbb;
+	border-radius: 3px;
+}
+
+table.NavBar {
+	width: 99%;
+	margin: auto;
+	text-align: center;
+	border-radius: 7px;
+	background-color: #e7e7e7;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+td.NavBar {
+	border-right: solid 2px #ffffff;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	border-radius: 2px;
+	/*background-color: #d7d7d7;*/
+	color: #252525;
+	font-family: "Trajan Pro";
+}
+td a {
+	display: block;
+}
+td.NavBar:hover {
+	border-right: solid 2px #ffffff;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	border-radius: 2px;
+	background-color: #797979;
+	color: #f1f1f1;
+}
+td.NavBar:active {
+	border-right: solid 2px #ffffff;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	border-radius: 2px;
+	background-color: #3e3e3e;
+	color: #f9f9f9;
+}
+#RightMostNavBar {
+	border-right: none;
+}
+#SlideshowDiv {
+	float: left;
+	width: 50%;
+	display: inline-block;
+	margin-left: 7px;
+	margin-top: 10px;
+
+}
+.Slideshow {
+	display: inline-block;
+}
+img.Slideshow {
+	width: 100%;
+	border-radius:5px;
+	/*border: solid 3px #c2c2c2;*/
+	box-shadow: 5px 5px 10px #a9a9a9;
+}
+
+.Body {
+	display: inline-block;
+	padding: 15px;
+	margin: auto;
+	text-align: center;
+}
+
+
+.footer {
+	background-color: #929292;
+	background: -webkit-linear-gradient(left top, #d9d9d9, #939393); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(bottom right, #d9d9d9, #939393); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(bottom right, #d9d9d9, #939393); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to bottom right, #d2d2d2, #909090 ); /* Standard syntax */
+	color: #ffffff;
+	font-size: 12px;
+	font-weight: bold;
+	font-family: "Trajan Pro";
+	text-align: right;
+	text-decoration: none;
+	vertical-align: bottom;
+	display:block;
+	margin: auto;
+	padding	: 10px;
+	clear:both;
+}
+
+.footer span {
+	text-align: center;
+}
