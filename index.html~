@@ -36,19 +36,19 @@
 		<div class="NavBar">
 			<table class="NavBar"><tr>
 				<td class="NavBar">
-					<a href="index.html">Home</a>
+					<a href="index.php">Home</a>
 				</td>
 				<td class="NavBar">
-					<a href="education.html">Education</a>
+					<a href="education.php">Education</a>
 				</td>
 				<td class="NavBar">
-					<a href="awards.html">Awards</a>
+					<a href="awards.php">Awards</a>
 				</td>
 				<td class="NavBar">
-					<a href="design.html">Graphic Design</a>
+					<a href="design.php">Graphic Design</a>
 				</td>
 				<td class="NavBar" id="RightMostNavBar">
-					<a href="contact.html">Contact Oisín</a>
+					<a href="contact.php">Contact Oisín</a>
 				</td>
 			</tr></table>
 		</div>

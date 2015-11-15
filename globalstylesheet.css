@@ -1,13 +1,19 @@
 @font-face
 {
-font-family: Trajan Pro;
-src: url(images/TrajanPro-Regular.ttf);
+font-family: Asenine;
+src: url(images/ASENINE_.ttf);
+}
+@font-face
+{
+font-family: Aller;
+src: url(images/Aller_Lt.ttf);
 }
 
- * {
- 	font-family: Helvetica, Calibri, Arial, sans-serif;
- 	font-weight: lighter;
- 	font-size: 0.8pc;
+ p {
+ 	font-family: Aller, Helvetica, Calibri, Arial, sans-serif;
+ 	color: black;
+
+ 	font-size: 1pc;
  	
   }
 a {
@@ -18,8 +24,8 @@ a {
 	font-size: inherit;
 }
 body {
-	background-color: #e3e3e3;
-	background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.2) 25%, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0));
+	background-color: #f3f3f3;
+	background-image: #e7e7e7;/*linear-gradient(45deg, rgba(255, 255, 255, 0.2) 25%, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0));*/
   	background-size: 50px 50px;
 	
 	/*opacity:0.4;
@@ -31,8 +37,96 @@ body {
 	width: 80%;
 	margin: auto;
 	background-color: #ffffff;
+	border: solid 1px white;
 	box-shadow: 10px 10px 20px #bbbbbb;
 	border-radius: 3px;
+}
+.Header {
+	display: block;
+	background-image: url(images/titlebg.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	/*background: -webkit-linear-gradient(left top, #e3e3e3, #c2c2c2); /* For Safari 5.1 to 6.0 */
+	/*background: -o-linear-gradient(bottom right, #e3e3e3, #c2c2c2); /* For Opera 11.1 to 12.0 */
+	/*background: -moz-linear-gradient(bottom right, #e3e3e3, #c2c2c2); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to bottom right, #e3e3e3, #c2c2c2); /* Standard syntax */ 
+	margin-bottom: 3px;
+}
+.Header2 {
+	background-image: url(images/titlebg.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.ProfilePicture {
+	display: inline-block;
+	width:15%;
+	height: 15%;
+	margin: 9px;
+	background-color: inherit;
+	padding-right: 12px;
+	border-right: 2px ridge #d2d2d2;
+	
+}
+.ProfilePicture img {
+	border-radius: 100%;
+	border:solid 2px #ffffff;
+	width: 100%;
+	box-shadow: 0px 0px 5px 3px #a1a1a1;
+	
+}
+.Title {
+	display: inline-block;
+	width: 80%;
+	-webkit-text-stroke-width: 0.8px;
+   	-webkit-text-stroke-color: #ffffff;
+}
+.SocialMedia {
+	display: inline-block;
+	color: white;
+	float: right;
+	margin-right: 25px;
+	
+}
+.SocialMedia span{
+	margin-right: 5px;
+	text-align: center;
+	display: inline-block;
+	padding: 10px 3px 14px 3px ;
+	width: 35px;
+	font-size: 1.1pc;
+	box-shadow: -10px 0 10px -10px inset;
+	
+}
+.SocialMedia span img {
+	width: 100%;
+}
+.LinkedIn {
+	background-color: red;
+	background:linear-gradient(348deg,
+           rgba(0,107,158,1) 0%,
+           rgba(0,107,158,1) 89%,
+           rgba(0,0,0,0) 90%);
+}
+.LinkedIn:hover {
+	box-shadow: -10px 0 10px -8px #ffffff inset ;
+}
+.Twitter {
+	background:linear-gradient(348deg,
+           rgba(0,165,237,1) 0%,
+           rgba(0,165,237,1) 89%,
+           rgba(0,0,0,0) 90%);
+}
+.Twitter:hover {
+	box-shadow: -10px 0 10px -8px #ffffff inset ;
+}
+.Google {
+	background:linear-gradient(348deg,
+           rgba(218,72,53,1) 0%,
+           rgba(218,72,53,1) 89%,
+           rgba(0,0,0,0) 90%);
+}
+.Google:hover {
+	box-shadow: -10px 0 10px -8px #ffffff inset ;
 }
 
 table.NavBar {
@@ -40,34 +134,38 @@ table.NavBar {
 	margin: auto;
 	text-align: center;
 	border-radius: 7px;
-	background-color: #e7e7e7;
+	background-color: #d7d7d7;
 	padding-top: 2px;
 	padding-bottom: 2px;
 }
 td.NavBar {
 	border-right: solid 2px #ffffff;
-	padding-top: 6px;
-	padding-bottom: 6px;
+	/*padding-top: 6px;
+	padding-bottom: 6px;*/
 	border-radius: 2px;
 	/*background-color: #d7d7d7;*/
 	color: #252525;
-	font-family: "Trajan Pro";
+	font-family: "Asenine";
+	font-size: 1.3pc;
+	font-weight: bold;
 }
-td a {
+td.NavBar a {
 	display: block;
+	padding-top: 6px;
+	padding-bottom: 6px;
 }
 td.NavBar:hover {
 	border-right: solid 2px #ffffff;
-	padding-top: 6px;
-	padding-bottom: 6px;
+	/*padding-top: 6px;
+	padding-bottom: 6px;*/
 	border-radius: 2px;
 	background-color: #797979;
 	color: #f1f1f1;
 }
 td.NavBar:active {
 	border-right: solid 2px #ffffff;
-	padding-top: 6px;
-	padding-bottom: 6px;
+	/*padding-top: 6px;
+	padding-bottom: 6px;*/
 	border-radius: 2px;
 	background-color: #3e3e3e;
 	color: #f9f9f9;
@@ -75,44 +173,33 @@ td.NavBar:active {
 #RightMostNavBar {
 	border-right: none;
 }
-#SlideshowDiv {
-	float: left;
-	width: 50%;
-	display: inline-block;
-	margin-left: 7px;
-	margin-top: 10px;
-
-}
-.Slideshow {
-	display: inline-block;
-}
-img.Slideshow {
-	width: 100%;
-	border-radius:5px;
-	/*border: solid 3px #c2c2c2;*/
-	box-shadow: 5px 5px 10px #a9a9a9;
-}
 
 .Body {
-	display: inline-block;
+	display: block;
 	padding: 15px;
 	margin: auto;
 	text-align: center;
 }
+.Body p {
+	padding: 18px;
+	margin-left: 10px;
+	display: block;
+}
 
 
-.footer {
+ div.footer {
 	background-color: #929292;
 	background: -webkit-linear-gradient(left top, #d9d9d9, #939393); /* For Safari 5.1 to 6.0 */
 	background: -o-linear-gradient(bottom right, #d9d9d9, #939393); /* For Opera 11.1 to 12.0 */
 	background: -moz-linear-gradient(bottom right, #d9d9d9, #939393); /* For Firefox 3.6 to 15 */
 	background: linear-gradient(to bottom right, #d2d2d2, #909090 ); /* Standard syntax */
 	color: #ffffff;
-	font-size: 12px;
+	font-size: 1.2pc;
+	letter-spacing: 1px;
 	font-weight: bold;
-	font-family: "Trajan Pro";
-	text-align: right;
+	font-family: Asenine;
 	text-decoration: none;
+	text-align: right;
 	vertical-align: bottom;
 	display:block;
 	margin: auto;
@@ -120,6 +207,113 @@ img.Slideshow {
 	clear:both;
 }
 
-.footer span {
+ span.footer {
 	text-align: center;
+	font-size: 1pc;
+	letter-spacing: 1px;
+	font-weight: bold;
+	font-family: Asenine;
+	text-decoration: none;
+	vertical-align: bottom;
+}
+.footer p {
+	font-size: 12px;
+	font-weight: bold;
+	text-align: right;
+	text-decoration: none;
+	vertical-align: bottom;
+}
+h1 {
+	font-family: Asenine;
+	font-size: 4pc;
+	vertical-align: top;
+	font-weight: bolder;
+	display: block;
+	margin: 0px;
+}
+h2 {
+	font-weight: bolder;
+	font-size: 1pc;
+	font-style: italic;
+}
+
+h4 {
+	font-family: Asenine;
+	font-weight: bolder;
+	font-size: 2.5pc;
+	display: inline-block;
+	margin: 20px 0px 0px 0px;
+}
+
+.Contact {
+	display: inline-block;
+	margin: 0% 10% 4% 10%;
+	font-family: Aller;
+}
+ul {
+	text-align: left;
+}
+.Slideshow {
+	display: inline-block;
+	width: 21%;
+	margin: 8px;
+	height: 31%;
+	
+}
+img.Slideshow {
+	width: 100%;
+	border-radius: 10px;
+	border: solid 2px #c9c9c9;
+	margin: auto;
+	padding: 0px;	
+
+}
+img.Slideshow:hover {
+	
+	border: solid 2px #000000;
+		
+
+}
+span.Slideshow {
+      /* shows image */
+    width: 21%;
+    margin: 8px; 
+    display: inline-block;                       /* be sure to set height & width */
+    height: 43vh;
+    /*background-size:100% 100%;*/
+	background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+	border: solid 2px #c9c9c9;
+	
+
+}
+span.Slideshow:hover {
+	text-indent: 0%;
+	border: solid 2px #979797;
+}
+span a {
+	display: block;
+	height: 100%;
+	
+}
+.Grades {
+	width: 80%;
+	margin: auto;
+	font: inherit;
+	font-family: Aller;
+	border-radius: 5px;
+	border:solid 2px #171717;
+	box-shadow: 5px 5px 10px #c3c3c3;
+}
+.Grades th {
+	border: solid 1px #171717;
+	padding: 8px 0px 8px 0px;
+	color: #171717;
+}
+.Grades td {
+	border: solid 1px #171717;
+	padding: 5px 0px 5px 0px;
+	color: #171717;
 }
