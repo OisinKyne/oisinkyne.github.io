@@ -255,6 +255,7 @@ ul {
 	font-family: Aller, Helvetica, Calibri, Arial, sans-serif;
  	color: black;
  	font-size: 1pc;
+	list-style-type: circle;
 }
 .Slideshow {
 	display: inline-block;
