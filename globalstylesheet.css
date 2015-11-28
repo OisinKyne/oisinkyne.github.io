@@ -252,6 +252,9 @@ h4 {
 }
 ul {
 	text-align: left;
+	font-family: Aller, Helvetica, Calibri, Arial, sans-serif;
+ 	color: black;
+ 	font-size: 1pc;
 }
 .Slideshow {
 	display: inline-block;
