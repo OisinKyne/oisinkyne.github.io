@@ -1,6 +1,5 @@
-# oisinkyne.github.io
-Hosting for my personal website
+# The Green SSIA
+Bringing the Irish Economy to the fight for Ireland's Future. 
 
-I have taken down the original website as I was not doing enough to keep it up to date and I would rather I have no info online than criminally out of date info. The files are still public if someone wants to look into my life as a first year computer science student, by all means. 
-
-
+## About
+This site outlines the Green SSIA Initiative. The Green SSIA aims to be a Government backed, Special Savings & Investment Account dedicated to funding Green Agriculture and Green Energy Initiatives in Ireland. 
